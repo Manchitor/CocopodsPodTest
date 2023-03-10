@@ -7,6 +7,7 @@
 //
 
 #import "PPViewController.h"
+#import <YJTest.h>
 
 @interface PPViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    YJTest *test = [[YJTest alloc] init];
+    test.testId = @"liuyongji";
+    [YJTest setupPerson:@"liuyongji" age:@"20"];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
