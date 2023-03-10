@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/刘永吉/CocopodsPodTest'
+  s.homepage         = 'https://github.com/Manchitor/CocopodsPodTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '刘永吉' => '18721218206@163.com' }
-  s.source           = { :git => 'https://github.com/刘永吉/CocopodsPodTest.git', :tag => s.version.to_s }
+  s.author           = { 'liuyongji' => '18721218206@163.com' }
+  s.source           = { :git => 'https://github.com/Manchitor/CocopodsPodTest', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
